@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services &amp; Booking | Zuri Nail Atelier Nairobi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+      Zuri Nail Atelier
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <select id="currencySelector" class="currency-select" aria-label="Select Currency">
+          <option value="KES">KES (KSh)</option>
+          <option value="NGN">NGN (₦)</option>
+          <option value="USD">USD ($)</option>
+          <option value="GBP">GBP (£)</option>
+          <option value="EUR">EUR (€)</option>
+          <option value="AED">AED</option>
+        </select>
+        <a href="#booking" class="btn btn-primary">Book Appointment</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+      <div class="container">
+        <span class="eyebrow">Full Treatment Menu • Westlands, Nairobi</span>
+        <h1>Detailed Nail Services &amp; Rituals</h1>
+        <p>Every treatment includes single-use files, autoclaved tools, Kenyan botanical cuticle oil, and unhurried care tailored to your nail chemistry.</p>
+      </div>
+    </section>
+
+    <!-- DETAILED SERVICE INFORMATION SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-category="all">All Services</button>
+          <button class="tab-btn" data-category="manicure">Manicures</button>
+          <button class="tab-btn" data-category="pedicure">Pedicures</button>
+          <button class="tab-btn" data-category="enhancements">BIAB &amp; Extensions</button>
+          <button class="tab-btn" data-category="art">Nail Art &amp; Add-Ons</button>
+        </div>
+
+        <div class="grid-2">
+          <article class="service-item" data-category="manicure">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Manicure • 45 Mins</span>
+                  <h3>The Bare Botanical Manicure</h3>
+                </div>
+                <span class="service-price" data-price-kes="2500">KSh 2,500</span>
+              </div>
+              <p>Ideal for natural nail minimalists. Includes gentle dry cuticle refining, custom shaping, warm lemongrass towel wrap, shea hand massage, and high-shine buff or breathable 10-free polish.</p>
+              <div class="service-features">
+                <span class="service-pill">Cuticle Detail</span>
+                <span class="service-pill">Warm Towel</span>
+                <span class="service-pill">Shea Hand Massage</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="The Bare Botanical Manicure">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="manicure">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Manicure • 60 Mins</span>
+                  <h3>Signature Russian-Inspired Gel Manicure</h3>
+                </div>
+                <span class="service-price" data-price-kes="3500">KSh 3,500</span>
+              </div>
+              <p>Meticulous dry e-file cuticle refinement for ultra-clean polish lines right up to the skin, paired with HEMA-free Japanese soft gel color that wears seamlessly for 2–3 weeks.</p>
+              <div class="service-features">
+                <span class="service-pill">Zero-Water Technique</span>
+                <span class="service-pill">21-Day Wear</span>
+                <span class="service-pill">7-Day Guarantee</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Signature Gel Manicure">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="enhancements">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Strengthening • 75 Mins</span>
+                  <h3>Structured BIAB Builder Overlay</h3>
+                </div>
+                <span class="service-price" data-price-kes="4800">KSh 4,800</span>
+              </div>
+              <p>A self-leveling Builder-In-A-Bottle overlay engineered to reinforce thin, brittle, or flat nails with a natural apex. Encourages long-term natural nail growth without lifting.</p>
+              <div class="service-features">
+                <span class="service-pill">Natural Nail Strengthening</span>
+                <span class="service-pill">Apex Sculpting</span>
+                <span class="service-pill">Includes Single Color</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Structured BIAB Overlay">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="enhancements">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Extensions • 95 Mins</span>
+                  <h3>Gel-X Soft Gel Extensions</h3>
+                </div>
+                <span class="service-price" data-price-kes="6500">KSh 6,500</span>
+              </div>
+              <p>Lightweight, full-coverage soft gel tips bonded with soak-off builder gel. Choose almond, oval, coffin, or squoval shapes—odorless, flexible, and gentle upon removal.</p>
+              <div class="service-features">
+                <span class="service-pill">Custom Length &amp; Shape</span>
+                <span class="service-pill">Soak-Off Safe</span>
+                <span class="service-pill">Single Gel Shade</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Gel-X Soft Gel Extensions">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="pedicure">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Pedicure • 55 Mins</span>
+                  <h3>Classic Dry-Care Pedicure</h3>
+                </div>
+                <span class="service-price" data-price-kes="3800">KSh 3,800</span>
+              </div>
+              <p>A hygienic foot treatment featuring an aromatic eucalyptus soak, precision heel smoothing with disposable sanding discs, cuticle work, hydrating balm, and breathable polish or gel.</p>
+              <div class="service-features">
+                <span class="service-pill">Pipeless Copper Basin</span>
+                <span class="service-pill">Callus Buffing</span>
+                <span class="service-pill">Foot Massage</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Classic Dry-Care Pedicure">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="pedicure">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Luxury Pedicure • 75 Mins</span>
+                  <h3>Kenyan Coffee, Shea &amp; Baobab Ritual</h3>
+                </div>
+                <span class="service-price" data-price-kes="5500">KSh 5,500</span>
+              </div>
+              <p>Our restorative pedicure experience: warm hibiscus mineral soak, roasted AA Kenyan coffee &amp; cane sugar scrub, baobab butter wrap in warm booties, 15-minute basalt hot stone massage, and gel finish.</p>
+              <div class="service-features">
+                <span class="service-pill">AA Coffee Scrub</span>
+                <span class="service-pill">15-Min Hot Stone</span>
+                <span class="service-pill">Gel Polish Included</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Kenyan Coffee &amp; Baobab Pedicure">Book This Service</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="art">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Nail Art • +15 to 30 Mins</span>
+                  <h3>Minimalist &amp; Editorial Nail Art Tiers</h3>
+                </div>
+                <span class="service-price" data-price-min-kes="1200" data-price-max-kes="3500">KSh 1,200 – KSh 3,500</span>
+              </div>
+              <p><strong>Tier 1:</strong> Micro-French, glazed chrome, velvet cat-eye, or 2 accent nails.<br><strong>Tier 2:</strong> Aura airbrush, tortoise shell, or gold-leaf florals.<br><strong>Tier 3:</strong> Custom mixed-media &amp; sculpted 3D art.</p>
+              <div class="service-features">
+                <span class="service-pill">Chrome &amp; Cat-Eye</span>
+                <span class="service-pill">Hand-Painted</span>
+                <span class="service-pill">Custom Inspo Welcome</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Gel Manicure + Custom Nail Art">Book With Nail Art</a>
+            </div>
+          </article>
+
+          <article class="service-item" data-category="art">
+            <div>
+              <div class="service-top">
+                <div>
+                  <span class="service-meta">Care &amp; Removal • 20 Mins</span>
+                  <h3>Gentle Soak-Off &amp; Keratin Infusion</h3>
+                </div>
+                <span class="service-price" data-price-kes="1500">KSh 1,500</span>
+              </div>
+              <p>Steam and foil gentle removal of existing soft gel or BIAB (complimentary with return Zuri gel services), finished with warm IBX keratin nail-plate strengthening treatment.</p>
+              <div class="service-features">
+                <span class="service-pill">Zero Scraping</span>
+                <span class="service-pill">Keratin Repair</span>
+                <span class="service-pill">Cuticle Recovery</span>
+              </div>
+            </div>
+            <div>
+              <a href="#booking" class="btn btn-secondary" data-book-service="Gentle Soak-Off &amp; Keratin Infusion">Book This Service</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- INTERACTIVE CURRENCY CONVERTER WIDGET -->
+        <div class="converter-card" id="currency-converter">
+          <div class="converter-header">
+            <div>
+              <span class="eyebrow">Diaspora, Travel &amp; Gift Budget Tool</span>
+              <h3>Interactive Currency Converter</h3>
+              <p style="color: var(--ink-muted); font-size: 0.94rem; margin-top: 4px;">
+                Convert treatment totals between Kenyan Shillings, Nigerian Naira, US Dollars, Pounds, Euros, and Dirhams—or switch the entire menu currency.
+              </p>
+            </div>
+            <span class="converter-badge" id="convStatusBadge">● Standard Studio Rates</span>
+          </div>
+
+          <div class="converter-grid">
+            <div class="form-group">
+              <label for="convAmount">Amount</label>
+              <input type="number" id="convAmount" value="3500" min="0" step="any">
+            </div>
+
+            <div class="form-group">
+              <label for="convFrom">From Currency</label>
+              <select id="convFrom">
+                <option value="KES" selected>KES — Kenyan Shilling (KSh)</option>
+                <option value="NGN">NGN — Nigerian Naira (₦)</option>
+                <option value="USD">USD — US Dollar ($)</option>
+                <option value="GBP">GBP — British Pound (£)</option>
+                <option value="EUR">EUR — Euro (€)</option>
+                <option value="AED">AED — UAE Dirham</option>
+              </select>
+            </div>
+
+            <button type="button" class="swap-btn" id="convSwap" title="Swap Currencies" aria-label="Swap Currencies">⇄</button>
+
+            <div class="form-group">
+              <label for="convTo">Convert To</label>
+              <select id="convTo">
+                <option value="USD" selected>USD — US Dollar ($)</option>
+                <option value="KES">KES — Kenyan Shilling (KSh)</option>
+                <option value="NGN">NGN — Nigerian Naira (₦)</option>
+                <option value="GBP">GBP — British Pound (£)</option>
+                <option value="EUR">EUR — Euro (€)</option>
+                <option value="AED">AED — UAE Dirham</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="converter-output">
+            <div>
+              <span class="converter-rate-note" id="convRateNote">Exchange rate: 1 KES = 0.0077 USD</span>
+              <div class="converter-result-value" id="convResult">$26.92 USD</div>
+            </div>
+            <button type="button" class="btn btn-primary" id="convApplyBtn">Apply Currency to Salon Menu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="section section-alt" id="booking">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div>
+            <span class="eyebrow">Online Reservation</span>
+            <h2>Book Your Nail Ritual</h2>
+            <p style="margin-top: 12px; color: var(--ink-muted);">
+              Select your preferred treatment, nail artist, and EAT time slot. Pay conveniently via M-Pesa Till or card after your session.
+            </p>
+            <ul class="booking-perks">
+              <li><span>✓</span> Complimentary Kenyan purple tea, dawa, or sparkling water</li>
+              <li><span>✓</span> Free soak-off removal when re-booking Zuri gel</li>
+              <li><span>✓</span> Pay in-studio via M-Pesa, Pesalink, Visa &amp; Mastercard</li>
+              <li><span>✓</span> Quiet chair option available upon request</li>
+            </ul>
+          </div>
+
+          <form id="bookingForm">
+            <div class="form-grid">
+              <div class="form-group full">
+                <label for="bookingService">Select Service *</label>
+                <select id="bookingService" name="service" required>
+                  <option value="">-- Choose a treatment --</option>
+                  <option value="The Bare Botanical Manicure" data-base-label="The Bare Botanical Manicure" data-price-kes="2500">The Bare Botanical Manicure (KSh 2,500)</option>
+                  <option value="Signature Gel Manicure" data-base-label="Signature Gel Manicure" data-price-kes="3500">Signature Gel Manicure (KSh 3,500)</option>
+                  <option value="Structured BIAB Overlay" data-base-label="Structured BIAB Overlay" data-price-kes="4800">Structured BIAB Overlay (KSh 4,800)</option>
+                  <option value="Gel-X Soft Gel Extensions" data-base-label="Gel-X Soft Gel Extensions" data-price-kes="6500">Gel-X Soft Gel Extensions (KSh 6,500)</option>
+                  <option value="Classic Dry-Care Pedicure" data-base-label="Classic Dry-Care Pedicure" data-price-kes="3800">Classic Dry-Care Pedicure (KSh 3,800)</option>
+                  <option value="Kenyan Coffee &amp; Baobab Pedicure" data-base-label="Kenyan Coffee, Shea &amp; Baobab Pedicure" data-price-kes="5500">Kenyan Coffee, Shea &amp; Baobab Pedicure (KSh 5,500)</option>
+                  <option value="Gel Manicure + Custom Nail Art" data-base-label="Gel Manicure + Custom Nail Art" data-price-kes="4700">Gel Manicure + Custom Nail Art (KSh 4,700)</option>
+                  <option value="Gentle Soak-Off &amp; Keratin Infusion" data-base-label="Gentle Soak-Off &amp; Keratin Infusion" data-price-kes="1500">Gentle Soak-Off &amp; Keratin Infusion (KSh 1,500)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingArtist">Preferred Nail Artist</label>
+                <select id="bookingArtist" name="artist">
+                  <option value="First Available Master Artist">First Available Master Artist</option>
+                  <option value="Wanjiku Kamau (BIAB &amp; Minimalist)">Wanjiku Kamau (BIAB &amp; Minimalist)</option>
+                  <option value="Amina Hassan (Japanese Gel &amp; Art)">Amina Hassan (Japanese Gel &amp; Art)</option>
+                  <option value="Brenda Ochieng (Spa Pedicure &amp; Gel-X)">Brenda Ochieng (Spa Pedicure &amp; Gel-X)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingDate">Preferred Date *</label>
+                <input type="date" id="bookingDate" name="date" required>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingTime">Preferred Time (EAT) *</label>
+                <select id="bookingTime" name="time" required>
+                  <option value="9:30 AM">9:30 AM</option>
+                  <option value="11:00 AM">11:00 AM</option>
+                  <option value="1:00 PM">1:00 PM</option>
+                  <option value="2:30 PM">2:30 PM</option>
+                  <option value="4:00 PM">4:00 PM</option>
+                  <option value="5:30 PM">5:30 PM</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingName">Full Name *</label>
+                <input type="text" id="bookingName" name="name" placeholder="e.g. Faith Muthoni" required>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingEmail">Email Address *</label>
+                <input type="email" id="bookingEmail" name="email" placeholder="faith@example.co.ke" required>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingPhone">Phone / WhatsApp *</label>
+                <input type="tel" id="bookingPhone" name="phone" placeholder="+254 712 345 678" required>
+              </div>
+
+              <div class="form-group full">
+                <label for="bookingNotes">Notes (Removal needed, nail art inspo, quiet chair)</label>
+                <textarea id="bookingNotes" name="notes" rows="3" placeholder="Let us know if you currently have gel/acrylic on or prefer a silent appointment..."></textarea>
+              </div>
+            </div>
+
+            <div style="margin-top: 22px;">
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm Appointment Request</button>
+            </div>
+            <div class="form-feedback" id="bookingFeedback" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo"><span class="brand-dot"></span> Zuri Nail Atelier</a>
+          <p>A calm, design-forward Nairobi nail studio dedicated to non-toxic formulas, meticulous hygiene, and timeless nail artistry.</p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services &amp; Pricing</a></li>
+            <li><a href="about.html">About Us &amp; Artists</a></li>
+            <li><a href="contact.html">Contact &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Hours (EAT)</h4>
+          <ul class="footer-links">
+            <li>Tue – Fri: 9:00 AM – 7:30 PM</li>
+            <li>Saturday: 8:30 AM – 6:30 PM</li>
+            <li>Sunday: 10:00 AM – 5:00 PM</li>
+            <li>Monday: Closed</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Visit Us</h4>
+          <ul class="footer-links">
+            <li>The Courtyard, Gen. Mathenge Dr, Westlands, Nairobi</li>
+            <li>+254 712 345 678</li>
+            <li>concierge@zurinailatelier.co.ke</li>
+            <li><a href="services.html#booking" style="color: var(--accent-blush); font-weight: 600;">Book Online →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Zuri Nail Atelier Nairobi. All rights reserved.</span>
+        <span>M-Pesa &amp; Card Accepted • 100% HEMA-Free Salon</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

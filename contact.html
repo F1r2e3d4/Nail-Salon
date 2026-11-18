@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Zuri Nail Atelier Nairobi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- GLOBAL HEADER -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+      Zuri Nail Atelier
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <select id="currencySelector" class="currency-select" aria-label="Select Currency">
+          <option value="KES">KES (KSh)</option>
+          <option value="NGN">NGN (₦)</option>
+          <option value="USD">USD ($)</option>
+          <option value="GBP">GBP (£)</option>
+          <option value="EUR">EUR (€)</option>
+          <option value="AED">AED</option>
+        </select>
+        <a href="services.html#booking" class="btn btn-primary">Book Appointment</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE BANNER -->
+    <section class="page-banner">
+      <div class="container">
+        <span class="eyebrow">Concierge &amp; Westlands Location</span>
+        <h1>We Would Love to Hear From You</h1>
+        <p>Questions about bridal group bookings, Ruracio nail packages, or nail art pricing? Send us a message or visit us in Westlands.</p>
+      </div>
+    </section>
+
+    <!-- 1. GET IN TOUCH + 2. VISIT & CONNECT + 3. SCHEDULE -->
+    <section class="section">
+      <div class="container split-grid" style="align-items: start;">
+
+        <!-- 1. GET IN TOUCH SECTION -->
+        <div class="card" style="padding: 38px;">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>Send Our Concierge a Message</h2>
+          <p style="margin: 10px 0 24px;">Expect a warm reply within two hours during Nairobi studio hours.</p>
+
+          <form id="contactForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="contactName">Your Name *</label>
+                <input type="text" id="contactName" name="name" placeholder="Full Name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" placeholder="you@example.co.ke" required>
+              </div>
+
+              <div class="form-group full">
+                <label for="contactTopic">Inquiry Type</label>
+                <select id="contactTopic" name="topic">
+                  <option value="General Question">General Service Question</option>
+                  <option value="Bridal &amp; Ruracio Groups">Bridal, Ruracio &amp; Private Parties</option>
+                  <option value="Reschedule / Existing Booking">Reschedule / Existing Appointment</option>
+                  <option value="Gift Cards">Zuri Gift Vouchers &amp; Memberships</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label for="contactMessage">Message *</label>
+                <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us how we can assist you..." required></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 18px;">Send Message</button>
+            <div class="form-feedback" id="contactFeedback" role="status"></div>
+          </form>
+        </div>
+
+        <!-- RIGHT COLUMN: 2. VISIT & CONNECT + 3. SCHEDULE -->
+        <div style="display: grid; gap: 28px;">
+
+          <!-- 2. VISIT & CONNECT SECTION -->
+          <div class="card" style="padding: 36px;">
+            <span class="eyebrow">Visit &amp; Connect</span>
+            <h3>Studio Address &amp; Direct Lines</h3>
+            <p style="margin-top: 12px;">
+              <strong>Address:</strong> 2nd Floor, The Courtyard, General Mathenge Drive, Westlands, Nairobi<br>
+              <strong>Phone / WhatsApp:</strong> +254 712 345 678<br>
+              <strong>Email:</strong> concierge@zurinailatelier.co.ke
+            </p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+              Complimentary basement &amp; courtyard parking on-site; easy Uber/Bolt drop-off 4 minutes from Sarit Centre.
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="social-pill" aria-label="Instagram">Instagram @zurinailatelier.ke</a>
+              <a href="#" class="social-pill" aria-label="TikTok">TikTok @zurinailatelier</a>
+              <a href="#" class="social-pill" aria-label="WhatsApp">WhatsApp Concierge</a>
+            </div>
+          </div>
+
+          <!-- 3. SCHEDULE SECTION -->
+          <div class="card" style="padding: 36px;">
+            <span class="eyebrow">Studio Schedule (EAT)</span>
+            <h3>Weekly Opening Hours</h3>
+            <div class="hours-list">
+              <div class="hours-row">
+                <strong>Monday</strong>
+                <span>Closed (Deep Studio Reset)</span>
+              </div>
+              <div class="hours-row">
+                <strong>Tuesday</strong>
+                <span>9:00 AM – 7:30 PM</span>
+              </div>
+              <div class="hours-row">
+                <strong>Wednesday</strong>
+                <span>9:00 AM – 7:30 PM</span>
+              </div>
+              <div class="hours-row">
+                <strong>Thursday</strong>
+                <span>9:00 AM – 8:00 PM (Late Evening)</span>
+              </div>
+              <div class="hours-row">
+                <strong>Friday</strong>
+                <span>9:00 AM – 7:30 PM</span>
+              </div>
+              <div class="hours-row">
+                <strong>Saturday</strong>
+                <span>8:30 AM – 6:30 PM</span>
+              </div>
+              <div class="hours-row" style="border-bottom: none; padding-bottom: 0;">
+                <strong>Sunday &amp; Public Holidays</strong>
+                <span>10:00 AM – 5:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MAP SECTION (WESTLANDS, NAIROBI) -->
+    <section class="section section-alt" style="padding-top: 56px;">
+      <div class="container">
+        <div class="section-header center" style="margin-bottom: 32px;">
+          <span class="eyebrow">Directions</span>
+          <h2>Find Us in Westlands, Nairobi</h2>
+          <p>Off General Mathenge Drive—just minutes from Westgate Mall and Sarit Centre.</p>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            class="map-frame"
+            title="Zuri Nail Atelier Westlands Nairobi Map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=36.7920%2C-1.2720%2C36.8120%2C-1.2570&amp;layer=mapnik&amp;marker=-1.2647%2C36.8019">
+          </iframe>
+          <div class="map-footer">
+            <div>
+              <strong>Zuri Nail Atelier — Westlands, Nairobi</strong>
+              <p style="font-size: 0.9rem; color: var(--ink-muted);">The Courtyard, General Mathenge Dr • Walk-ins welcome subject to chair availability.</p>
+            </div>
+            <a href="services.html#booking" class="btn btn-primary">Book Your Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo"><span class="brand-dot"></span> Zuri Nail Atelier</a>
+          <p>A calm, design-forward Nairobi nail studio dedicated to non-toxic formulas, meticulous hygiene, and timeless nail artistry.</p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services &amp; Pricing</a></li>
+            <li><a href="about.html">About Us &amp; Artists</a></li>
+            <li><a href="contact.html">Contact &amp; Hours</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Hours (EAT)</h4>
+          <ul class="footer-links">
+            <li>Tue – Fri: 9:00 AM – 7:30 PM</li>
+            <li>Saturday: 8:30 AM – 6:30 PM</li>
+            <li>Sunday: 10:00 AM – 5:00 PM</li>
+            <li>Monday: Closed</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Visit Us</h4>
+          <ul class="footer-links">
+            <li>The Courtyard, Gen. Mathenge Dr, Westlands, Nairobi</li>
+            <li>+254 712 345 678</li>
+            <li>concierge@zurinailatelier.co.ke</li>
+            <li><a href="services.html#booking" style="color: var(--accent-blush); font-weight: 600;">Book Online →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Zuri Nail Atelier Nairobi. All rights reserved.</span>
+        <span>M-Pesa &amp; Card Accepted • 100% HEMA-Free Salon</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
