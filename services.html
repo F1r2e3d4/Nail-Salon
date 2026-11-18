@@ -25,14 +25,6 @@
       </nav>
 
       <div class="nav-actions">
-        <select id="currencySelector" class="currency-select" aria-label="Select Currency">
-          <option value="KES">KES (KSh)</option>
-          <option value="NGN">NGN (₦)</option>
-          <option value="USD">USD ($)</option>
-          <option value="GBP">GBP (£)</option>
-          <option value="EUR">EUR (€)</option>
-          <option value="AED">AED</option>
-        </select>
         <a href="#booking" class="btn btn-primary">Book Appointment</a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu" aria-expanded="false">☰</button>
       </div>
@@ -68,7 +60,7 @@
                   <span class="service-meta">Manicure • 45 Mins</span>
                   <h3>The Bare Botanical Manicure</h3>
                 </div>
-                <span class="service-price" data-price-kes="2500">KSh 2,500</span>
+                <span class="service-price">KSh 2,500</span>
               </div>
               <p>Ideal for natural nail minimalists. Includes gentle dry cuticle refining, custom shaping, warm lemongrass towel wrap, shea hand massage, and high-shine buff or breathable 10-free polish.</p>
               <div class="service-features">
@@ -89,7 +81,7 @@
                   <span class="service-meta">Manicure • 60 Mins</span>
                   <h3>Signature Russian-Inspired Gel Manicure</h3>
                 </div>
-                <span class="service-price" data-price-kes="3500">KSh 3,500</span>
+                <span class="service-price">KSh 3,500</span>
               </div>
               <p>Meticulous dry e-file cuticle refinement for ultra-clean polish lines right up to the skin, paired with HEMA-free Japanese soft gel color that wears seamlessly for 2–3 weeks.</p>
               <div class="service-features">
@@ -110,7 +102,7 @@
                   <span class="service-meta">Strengthening • 75 Mins</span>
                   <h3>Structured BIAB Builder Overlay</h3>
                 </div>
-                <span class="service-price" data-price-kes="4800">KSh 4,800</span>
+                <span class="service-price">KSh 4,800</span>
               </div>
               <p>A self-leveling Builder-In-A-Bottle overlay engineered to reinforce thin, brittle, or flat nails with a natural apex. Encourages long-term natural nail growth without lifting.</p>
               <div class="service-features">
@@ -131,7 +123,7 @@
                   <span class="service-meta">Extensions • 95 Mins</span>
                   <h3>Gel-X Soft Gel Extensions</h3>
                 </div>
-                <span class="service-price" data-price-kes="6500">KSh 6,500</span>
+                <span class="service-price">KSh 6,500</span>
               </div>
               <p>Lightweight, full-coverage soft gel tips bonded with soak-off builder gel. Choose almond, oval, coffin, or squoval shapes—odorless, flexible, and gentle upon removal.</p>
               <div class="service-features">
@@ -152,7 +144,7 @@
                   <span class="service-meta">Pedicure • 55 Mins</span>
                   <h3>Classic Dry-Care Pedicure</h3>
                 </div>
-                <span class="service-price" data-price-kes="3800">KSh 3,800</span>
+                <span class="service-price">KSh 3,800</span>
               </div>
               <p>A hygienic foot treatment featuring an aromatic eucalyptus soak, precision heel smoothing with disposable sanding discs, cuticle work, hydrating balm, and breathable polish or gel.</p>
               <div class="service-features">
@@ -173,7 +165,7 @@
                   <span class="service-meta">Luxury Pedicure • 75 Mins</span>
                   <h3>Kenyan Coffee, Shea &amp; Baobab Ritual</h3>
                 </div>
-                <span class="service-price" data-price-kes="5500">KSh 5,500</span>
+                <span class="service-price">KSh 5,500</span>
               </div>
               <p>Our restorative pedicure experience: warm hibiscus mineral soak, roasted AA Kenyan coffee &amp; cane sugar scrub, baobab butter wrap in warm booties, 15-minute basalt hot stone massage, and gel finish.</p>
               <div class="service-features">
@@ -194,7 +186,7 @@
                   <span class="service-meta">Nail Art • +15 to 30 Mins</span>
                   <h3>Minimalist &amp; Editorial Nail Art Tiers</h3>
                 </div>
-                <span class="service-price" data-price-min-kes="1200" data-price-max-kes="3500">KSh 1,200 – KSh 3,500</span>
+                <span class="service-price">KSh 1,200 – KSh 3,500</span>
               </div>
               <p><strong>Tier 1:</strong> Micro-French, glazed chrome, velvet cat-eye, or 2 accent nails.<br><strong>Tier 2:</strong> Aura airbrush, tortoise shell, or gold-leaf florals.<br><strong>Tier 3:</strong> Custom mixed-media &amp; sculpted 3D art.</p>
               <div class="service-features">
@@ -215,7 +207,7 @@
                   <span class="service-meta">Care &amp; Removal • 20 Mins</span>
                   <h3>Gentle Soak-Off &amp; Keratin Infusion</h3>
                 </div>
-                <span class="service-price" data-price-kes="1500">KSh 1,500</span>
+                <span class="service-price">KSh 1,500</span>
               </div>
               <p>Steam and foil gentle removal of existing soft gel or BIAB (complimentary with return Zuri gel services), finished with warm IBX keratin nail-plate strengthening treatment.</p>
               <div class="service-features">
@@ -230,60 +222,6 @@
           </article>
         </div>
 
-        <!-- INTERACTIVE CURRENCY CONVERTER WIDGET -->
-        <div class="converter-card" id="currency-converter">
-          <div class="converter-header">
-            <div>
-              <span class="eyebrow">Diaspora, Travel &amp; Gift Budget Tool</span>
-              <h3>Interactive Currency Converter</h3>
-              <p style="color: var(--ink-muted); font-size: 0.94rem; margin-top: 4px;">
-                Convert treatment totals between Kenyan Shillings, Nigerian Naira, US Dollars, Pounds, Euros, and Dirhams—or switch the entire menu currency.
-              </p>
-            </div>
-            <span class="converter-badge" id="convStatusBadge">● Standard Studio Rates</span>
-          </div>
-
-          <div class="converter-grid">
-            <div class="form-group">
-              <label for="convAmount">Amount</label>
-              <input type="number" id="convAmount" value="3500" min="0" step="any">
-            </div>
-
-            <div class="form-group">
-              <label for="convFrom">From Currency</label>
-              <select id="convFrom">
-                <option value="KES" selected>KES — Kenyan Shilling (KSh)</option>
-                <option value="NGN">NGN — Nigerian Naira (₦)</option>
-                <option value="USD">USD — US Dollar ($)</option>
-                <option value="GBP">GBP — British Pound (£)</option>
-                <option value="EUR">EUR — Euro (€)</option>
-                <option value="AED">AED — UAE Dirham</option>
-              </select>
-            </div>
-
-            <button type="button" class="swap-btn" id="convSwap" title="Swap Currencies" aria-label="Swap Currencies">⇄</button>
-
-            <div class="form-group">
-              <label for="convTo">Convert To</label>
-              <select id="convTo">
-                <option value="USD" selected>USD — US Dollar ($)</option>
-                <option value="KES">KES — Kenyan Shilling (KSh)</option>
-                <option value="NGN">NGN — Nigerian Naira (₦)</option>
-                <option value="GBP">GBP — British Pound (£)</option>
-                <option value="EUR">EUR — Euro (€)</option>
-                <option value="AED">AED — UAE Dirham</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="converter-output">
-            <div>
-              <span class="converter-rate-note" id="convRateNote">Exchange rate: 1 KES = 0.0077 USD</span>
-              <div class="converter-result-value" id="convResult">$26.92 USD</div>
-            </div>
-            <button type="button" class="btn btn-primary" id="convApplyBtn">Apply Currency to Salon Menu</button>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -311,14 +249,14 @@
                 <label for="bookingService">Select Service *</label>
                 <select id="bookingService" name="service" required>
                   <option value="">-- Choose a treatment --</option>
-                  <option value="The Bare Botanical Manicure" data-base-label="The Bare Botanical Manicure" data-price-kes="2500">The Bare Botanical Manicure (KSh 2,500)</option>
-                  <option value="Signature Gel Manicure" data-base-label="Signature Gel Manicure" data-price-kes="3500">Signature Gel Manicure (KSh 3,500)</option>
-                  <option value="Structured BIAB Overlay" data-base-label="Structured BIAB Overlay" data-price-kes="4800">Structured BIAB Overlay (KSh 4,800)</option>
-                  <option value="Gel-X Soft Gel Extensions" data-base-label="Gel-X Soft Gel Extensions" data-price-kes="6500">Gel-X Soft Gel Extensions (KSh 6,500)</option>
-                  <option value="Classic Dry-Care Pedicure" data-base-label="Classic Dry-Care Pedicure" data-price-kes="3800">Classic Dry-Care Pedicure (KSh 3,800)</option>
-                  <option value="Kenyan Coffee &amp; Baobab Pedicure" data-base-label="Kenyan Coffee, Shea &amp; Baobab Pedicure" data-price-kes="5500">Kenyan Coffee, Shea &amp; Baobab Pedicure (KSh 5,500)</option>
-                  <option value="Gel Manicure + Custom Nail Art" data-base-label="Gel Manicure + Custom Nail Art" data-price-kes="4700">Gel Manicure + Custom Nail Art (KSh 4,700)</option>
-                  <option value="Gentle Soak-Off &amp; Keratin Infusion" data-base-label="Gentle Soak-Off &amp; Keratin Infusion" data-price-kes="1500">Gentle Soak-Off &amp; Keratin Infusion (KSh 1,500)</option>
+                  <option value="The Bare Botanical Manicure">The Bare Botanical Manicure (KSh 2,500)</option>
+                  <option value="Signature Gel Manicure">Signature Gel Manicure (KSh 3,500)</option>
+                  <option value="Structured BIAB Overlay">Structured BIAB Overlay (KSh 4,800)</option>
+                  <option value="Gel-X Soft Gel Extensions">Gel-X Soft Gel Extensions (KSh 6,500)</option>
+                  <option value="Classic Dry-Care Pedicure">Classic Dry-Care Pedicure (KSh 3,800)</option>
+                  <option value="Kenyan Coffee &amp; Baobab Pedicure">Kenyan Coffee, Shea &amp; Baobab Pedicure (KSh 5,500)</option>
+                  <option value="Gel Manicure + Custom Nail Art">Gel Manicure + Custom Nail Art (KSh 4,700)</option>
+                  <option value="Gentle Soak-Off &amp; Keratin Infusion">Gentle Soak-Off &amp; Keratin Infusion (KSh 1,500)</option>
                 </select>
               </div>
 
